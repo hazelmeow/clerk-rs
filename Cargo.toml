@@ -40,5 +40,7 @@ version = "^0.11"
 features = ["json", "multipart"]
 
 [dev-dependencies]
+base64 = "0.21.7"
 clerk-rs = { path = "../clerk-rs" }
+openssl = "0.10.63"
 tokio = { version = "1.27.0", features = ["full"] }
